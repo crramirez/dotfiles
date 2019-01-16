@@ -13,7 +13,7 @@ set show-all-if-unmodified on
 set mark-directories on
 set mark-symlinked-directories on
  
-# Match all files
+# Do not match hidden files
 set match-hidden-files off
  
 # Color files by types
