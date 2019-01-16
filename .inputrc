@@ -11,8 +11,9 @@ set show-all-if-unmodified on
  
 # Append "/" to all dirnames
 set mark-directories on
-set mark-symlinked-directories on
- 
+# Mark symlinked directories
+set mark-symlinked-directories On
+
 # Do not match hidden files
 set match-hidden-files off
  
@@ -20,8 +21,6 @@ set match-hidden-files off
 set colored-stats On
 # Append char to indicate type
 set visible-stats On
-# Mark symlinked directories
-set mark-symlinked-directories On
 # Color the common prefix
 set colored-completion-prefix On
 # Color the common prefix in menu-complete
