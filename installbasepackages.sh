@@ -9,6 +9,6 @@ wget -O ${HOME}/.toprc https://raw.githubusercontent.com/crramirez/shellprefs/ma
 sudo apt-get -y -q update
 sudo apt-get -y install bash-completion vim curl
 
-sed -i "s/#alias ll/alias ll/" ${HOME}/.bashrc
+sed -i "s/#alias l/alias l/" ${HOME}/.bashrc
 
 echo "shopt -s cdspell" >>${HOME}/.bashrc
