@@ -10,3 +10,5 @@ sudo apt-get -y -q update
 sudo apt-get -y install bash-completion vim curl
 
 sed -i "s/#alias ll/alias ll/" ${HOME}/.bashrc
+
+echo "shopt -s cdspell" >>${HOME}/.bashrc
