@@ -5,5 +5,8 @@ winget install Inkscape
 winget install WinMerge
 winget install Microsoft.Teams
 winget install Telegram.TelegramDesktop
+winget install Microsoft.WindowsTerminal
+winget install WinSCP
+winget install Postman
 
 
