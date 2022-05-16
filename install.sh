@@ -1,7 +1,5 @@
 #! /bin/bash
 
-cd
-
 rm -f .inputrc && ln -s ${PWD}/.inputrc ${HOME}/.inputrc
 rm -f .vimrc && ln -s ${PWD}/.vimrc ${HOME}/.vimrc
 rm -f .toprc && ln -s ${PWD}/.toprc ${HOME}/.toprc
